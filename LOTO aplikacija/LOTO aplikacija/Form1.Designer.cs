@@ -1,6 +1,6 @@
 ﻿namespace LOTO_aplikacija
 {
-    partial class Form1
+    partial class FrmLoto
     {
         /// <summary>
         /// Required designer variable.
@@ -28,247 +28,248 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.txtUplaceniBroj1 = new System.Windows.Forms.TextBox();
+            this.groupBoxUplaceni = new System.Windows.Forms.GroupBox();
+            this.txtUplaceniBroj3 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj5 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj4 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj6 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj7 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj2 = new System.Windows.Forms.TextBox();
+            this.btnUplati = new System.Windows.Forms.Button();
+            this.groupBoxDobitni = new System.Windows.Forms.GroupBox();
+            this.btnOdigraj = new System.Windows.Forms.Button();
+            this.txtDobitniBroj2 = new System.Windows.Forms.TextBox();
+            this.txtDobitniBroj7 = new System.Windows.Forms.TextBox();
+            this.txtDobitniBroj6 = new System.Windows.Forms.TextBox();
+            this.txtDobitniBroj4 = new System.Windows.Forms.TextBox();
+            this.txtDobitniBroj5 = new System.Windows.Forms.TextBox();
+            this.txtDobitniBroj3 = new System.Windows.Forms.TextBox();
+            this.txtDobitniBroj1 = new System.Windows.Forms.TextBox();
+            this.lblNatpis = new System.Windows.Forms.Label();
+            this.lblBrojPogodaka = new System.Windows.Forms.Label();
+            this.groupBoxUplaceni.SuspendLayout();
+            this.groupBoxDobitni.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtUplaceniBroj1
             // 
-            this.textBox1.AccessibleName = "txtUplaceniBroj1";
-            this.textBox1.Location = new System.Drawing.Point(6, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(40, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtUplaceniBroj1.AccessibleName = "txtUplaceniBroj1";
+            this.txtUplaceniBroj1.Location = new System.Drawing.Point(6, 19);
+            this.txtUplaceniBroj1.Name = "txtUplaceniBroj1";
+            this.txtUplaceniBroj1.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj1.TabIndex = 0;
             // 
-            // groupBox1
+            // groupBoxUplaceni
             // 
-            this.groupBox1.AccessibleName = "groupBoxUplaceni";
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(343, 104);
-            this.groupBox1.TabIndex = 8;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Uplaćena kombinacija";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.groupBoxUplaceni.AccessibleName = "groupBoxUplaceni";
+            this.groupBoxUplaceni.Controls.Add(this.btnUplati);
+            this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj2);
+            this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj7);
+            this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj6);
+            this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj4);
+            this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj5);
+            this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj3);
+            this.groupBoxUplaceni.Controls.Add(this.txtUplaceniBroj1);
+            this.groupBoxUplaceni.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxUplaceni.Name = "groupBoxUplaceni";
+            this.groupBoxUplaceni.Size = new System.Drawing.Size(343, 104);
+            this.groupBoxUplaceni.TabIndex = 8;
+            this.groupBoxUplaceni.TabStop = false;
+            this.groupBoxUplaceni.Text = "Uplaćena kombinacija";
+            this.groupBoxUplaceni.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // textBox2
+            // txtUplaceniBroj3
             // 
-            this.textBox2.AccessibleName = "txtUplaceniBroj3";
-            this.textBox2.Location = new System.Drawing.Point(98, 19);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(40, 20);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtUplaceniBroj3.AccessibleName = "txtUplaceniBroj3";
+            this.txtUplaceniBroj3.Location = new System.Drawing.Point(98, 19);
+            this.txtUplaceniBroj3.Name = "txtUplaceniBroj3";
+            this.txtUplaceniBroj3.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj3.TabIndex = 1;
+            this.txtUplaceniBroj3.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox3
+            // txtUplaceniBroj5
             // 
-            this.textBox3.AccessibleName = "txtUplaceniBroj5";
-            this.textBox3.Location = new System.Drawing.Point(190, 19);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(40, 20);
-            this.textBox3.TabIndex = 2;
+            this.txtUplaceniBroj5.AccessibleName = "txtUplaceniBroj5";
+            this.txtUplaceniBroj5.Location = new System.Drawing.Point(190, 19);
+            this.txtUplaceniBroj5.Name = "txtUplaceniBroj5";
+            this.txtUplaceniBroj5.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj5.TabIndex = 2;
             // 
-            // textBox4
+            // txtUplaceniBroj4
             // 
-            this.textBox4.AccessibleName = "txtUplaceniBroj4";
-            this.textBox4.Location = new System.Drawing.Point(144, 19);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(40, 20);
-            this.textBox4.TabIndex = 3;
+            this.txtUplaceniBroj4.AccessibleName = "txtUplaceniBroj4";
+            this.txtUplaceniBroj4.Location = new System.Drawing.Point(144, 19);
+            this.txtUplaceniBroj4.Name = "txtUplaceniBroj4";
+            this.txtUplaceniBroj4.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj4.TabIndex = 3;
             // 
-            // textBox5
+            // txtUplaceniBroj6
             // 
-            this.textBox5.AccessibleName = "txtUplaceniBroj6";
-            this.textBox5.Location = new System.Drawing.Point(236, 19);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(40, 20);
-            this.textBox5.TabIndex = 4;
+            this.txtUplaceniBroj6.AccessibleName = "txtUplaceniBroj6";
+            this.txtUplaceniBroj6.Location = new System.Drawing.Point(236, 19);
+            this.txtUplaceniBroj6.Name = "txtUplaceniBroj6";
+            this.txtUplaceniBroj6.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj6.TabIndex = 4;
             // 
-            // textBox6
+            // txtUplaceniBroj7
             // 
-            this.textBox6.AccessibleName = "txtUplaceniBroj7";
-            this.textBox6.Location = new System.Drawing.Point(282, 19);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(40, 20);
-            this.textBox6.TabIndex = 5;
+            this.txtUplaceniBroj7.AccessibleName = "txtUplaceniBroj7";
+            this.txtUplaceniBroj7.Location = new System.Drawing.Point(282, 19);
+            this.txtUplaceniBroj7.Name = "txtUplaceniBroj7";
+            this.txtUplaceniBroj7.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj7.TabIndex = 5;
             // 
-            // textBox7
+            // txtUplaceniBroj2
             // 
-            this.textBox7.AccessibleName = "txtUplaceniBroj2";
-            this.textBox7.Location = new System.Drawing.Point(52, 19);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(40, 20);
-            this.textBox7.TabIndex = 6;
+            this.txtUplaceniBroj2.AccessibleName = "txtUplaceniBroj2";
+            this.txtUplaceniBroj2.Location = new System.Drawing.Point(52, 19);
+            this.txtUplaceniBroj2.Name = "txtUplaceniBroj2";
+            this.txtUplaceniBroj2.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj2.TabIndex = 6;
             // 
-            // button1
+            // btnUplati
             // 
-            this.button1.AccessibleName = "btnUplati";
-            this.button1.Location = new System.Drawing.Point(247, 45);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Uplati";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnUplati.AccessibleName = "btnUplati";
+            this.btnUplati.Location = new System.Drawing.Point(247, 45);
+            this.btnUplati.Name = "btnUplati";
+            this.btnUplati.Size = new System.Drawing.Size(75, 23);
+            this.btnUplati.TabIndex = 7;
+            this.btnUplati.Text = "Uplati";
+            this.btnUplati.UseVisualStyleBackColor = true;
             // 
-            // groupBox2
+            // groupBoxDobitni
             // 
-            this.groupBox2.AccessibleName = "groupBoxDobitni";
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Controls.Add(this.textBox9);
-            this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.textBox11);
-            this.groupBox2.Controls.Add(this.textBox12);
-            this.groupBox2.Controls.Add(this.textBox13);
-            this.groupBox2.Controls.Add(this.textBox14);
-            this.groupBox2.Location = new System.Drawing.Point(12, 134);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(343, 89);
-            this.groupBox2.TabIndex = 9;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Dobitna kombinacija";
+            this.groupBoxDobitni.AccessibleName = "groupBoxDobitni";
+            this.groupBoxDobitni.Controls.Add(this.btnOdigraj);
+            this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj2);
+            this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj7);
+            this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj6);
+            this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj4);
+            this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj5);
+            this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj3);
+            this.groupBoxDobitni.Controls.Add(this.txtDobitniBroj1);
+            this.groupBoxDobitni.Location = new System.Drawing.Point(12, 134);
+            this.groupBoxDobitni.Name = "groupBoxDobitni";
+            this.groupBoxDobitni.Size = new System.Drawing.Size(343, 89);
+            this.groupBoxDobitni.TabIndex = 9;
+            this.groupBoxDobitni.TabStop = false;
+            this.groupBoxDobitni.Text = "Dobitna kombinacija";
             // 
-            // button2
+            // btnOdigraj
             // 
-            this.button2.AccessibleName = "btnOdigraj";
-            this.button2.Location = new System.Drawing.Point(247, 45);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Odigraj";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnOdigraj.AccessibleName = "btnOdigraj";
+            this.btnOdigraj.Location = new System.Drawing.Point(247, 45);
+            this.btnOdigraj.Name = "btnOdigraj";
+            this.btnOdigraj.Size = new System.Drawing.Size(75, 23);
+            this.btnOdigraj.TabIndex = 7;
+            this.btnOdigraj.Text = "Odigraj";
+            this.btnOdigraj.UseVisualStyleBackColor = true;
             // 
-            // textBox8
+            // txtDobitniBroj2
             // 
-            this.textBox8.AccessibleName = "txtDobitniBroj2";
-            this.textBox8.Location = new System.Drawing.Point(52, 19);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(40, 20);
-            this.textBox8.TabIndex = 6;
+            this.txtDobitniBroj2.AccessibleName = "txtDobitniBroj2";
+            this.txtDobitniBroj2.Location = new System.Drawing.Point(52, 19);
+            this.txtDobitniBroj2.Name = "txtDobitniBroj2";
+            this.txtDobitniBroj2.ReadOnly = true;
+            this.txtDobitniBroj2.Size = new System.Drawing.Size(40, 20);
+            this.txtDobitniBroj2.TabIndex = 6;
             // 
-            // textBox9
+            // txtDobitniBroj7
             // 
-            this.textBox9.AccessibleName = "txtDobitniBroj7";
-            this.textBox9.Location = new System.Drawing.Point(282, 19);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(40, 20);
-            this.textBox9.TabIndex = 5;
+            this.txtDobitniBroj7.AccessibleName = "txtDobitniBroj7";
+            this.txtDobitniBroj7.Location = new System.Drawing.Point(282, 19);
+            this.txtDobitniBroj7.Name = "txtDobitniBroj7";
+            this.txtDobitniBroj7.ReadOnly = true;
+            this.txtDobitniBroj7.Size = new System.Drawing.Size(40, 20);
+            this.txtDobitniBroj7.TabIndex = 5;
             // 
-            // textBox10
+            // txtDobitniBroj6
             // 
-            this.textBox10.AccessibleName = "txtDobitniBroj6";
-            this.textBox10.Location = new System.Drawing.Point(236, 19);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(40, 20);
-            this.textBox10.TabIndex = 4;
+            this.txtDobitniBroj6.AccessibleName = "txtDobitniBroj6";
+            this.txtDobitniBroj6.Location = new System.Drawing.Point(236, 19);
+            this.txtDobitniBroj6.Name = "txtDobitniBroj6";
+            this.txtDobitniBroj6.ReadOnly = true;
+            this.txtDobitniBroj6.Size = new System.Drawing.Size(40, 20);
+            this.txtDobitniBroj6.TabIndex = 4;
+            this.txtDobitniBroj6.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
-            // textBox11
+            // txtDobitniBroj4
             // 
-            this.textBox11.AccessibleName = "txtDobitniBroj4";
-            this.textBox11.Location = new System.Drawing.Point(144, 19);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.ReadOnly = true;
-            this.textBox11.Size = new System.Drawing.Size(40, 20);
-            this.textBox11.TabIndex = 3;
+            this.txtDobitniBroj4.AccessibleName = "txtDobitniBroj4";
+            this.txtDobitniBroj4.Location = new System.Drawing.Point(144, 19);
+            this.txtDobitniBroj4.Name = "txtDobitniBroj4";
+            this.txtDobitniBroj4.ReadOnly = true;
+            this.txtDobitniBroj4.Size = new System.Drawing.Size(40, 20);
+            this.txtDobitniBroj4.TabIndex = 3;
             // 
-            // textBox12
+            // txtDobitniBroj5
             // 
-            this.textBox12.AccessibleName = "txtDobitniBroj5";
-            this.textBox12.Location = new System.Drawing.Point(190, 19);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.ReadOnly = true;
-            this.textBox12.Size = new System.Drawing.Size(40, 20);
-            this.textBox12.TabIndex = 2;
+            this.txtDobitniBroj5.AccessibleName = "txtDobitniBroj5";
+            this.txtDobitniBroj5.Location = new System.Drawing.Point(190, 19);
+            this.txtDobitniBroj5.Name = "txtDobitniBroj5";
+            this.txtDobitniBroj5.ReadOnly = true;
+            this.txtDobitniBroj5.Size = new System.Drawing.Size(40, 20);
+            this.txtDobitniBroj5.TabIndex = 2;
             // 
-            // textBox13
+            // txtDobitniBroj3
             // 
-            this.textBox13.AccessibleName = "txtDobitniBroj3";
-            this.textBox13.Location = new System.Drawing.Point(98, 19);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ReadOnly = true;
-            this.textBox13.Size = new System.Drawing.Size(40, 20);
-            this.textBox13.TabIndex = 1;
+            this.txtDobitniBroj3.AccessibleName = "txtDobitniBroj3";
+            this.txtDobitniBroj3.Location = new System.Drawing.Point(98, 19);
+            this.txtDobitniBroj3.Name = "txtDobitniBroj3";
+            this.txtDobitniBroj3.ReadOnly = true;
+            this.txtDobitniBroj3.Size = new System.Drawing.Size(40, 20);
+            this.txtDobitniBroj3.TabIndex = 1;
             // 
-            // textBox14
+            // txtDobitniBroj1
             // 
-            this.textBox14.AccessibleName = "txtDobitniBroj1";
-            this.textBox14.Location = new System.Drawing.Point(6, 19);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.Size = new System.Drawing.Size(40, 20);
-            this.textBox14.TabIndex = 0;
+            this.txtDobitniBroj1.AccessibleName = "txtDobitniBroj1";
+            this.txtDobitniBroj1.Location = new System.Drawing.Point(6, 19);
+            this.txtDobitniBroj1.Name = "txtDobitniBroj1";
+            this.txtDobitniBroj1.ReadOnly = true;
+            this.txtDobitniBroj1.Size = new System.Drawing.Size(40, 20);
+            this.txtDobitniBroj1.TabIndex = 0;
             // 
-            // label1
+            // lblNatpis
             // 
-            this.label1.AccessibleName = "lblNatpis";
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(9, 235);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Broj pogodaka: ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblNatpis.AccessibleName = "lblNatpis";
+            this.lblNatpis.AutoSize = true;
+            this.lblNatpis.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblNatpis.Location = new System.Drawing.Point(9, 235);
+            this.lblNatpis.Name = "lblNatpis";
+            this.lblNatpis.Size = new System.Drawing.Size(97, 13);
+            this.lblNatpis.TabIndex = 10;
+            this.lblNatpis.Text = "Broj pogodaka: ";
+            this.lblNatpis.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // lblBrojPogodaka
             // 
-            this.label2.AccessibleName = "lblBrojPogodaka";
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(107, 235);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(14, 13);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "0";
+            this.lblBrojPogodaka.AccessibleName = "lblBrojPogodaka";
+            this.lblBrojPogodaka.AutoSize = true;
+            this.lblBrojPogodaka.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblBrojPogodaka.Location = new System.Drawing.Point(107, 235);
+            this.lblBrojPogodaka.Name = "lblBrojPogodaka";
+            this.lblBrojPogodaka.Size = new System.Drawing.Size(14, 13);
+            this.lblBrojPogodaka.TabIndex = 11;
+            this.lblBrojPogodaka.Text = "0";
             // 
-            // Form1
+            // FrmLoto
             // 
             this.AccessibleName = "FrmLoto";
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 281);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Controls.Add(this.lblBrojPogodaka);
+            this.Controls.Add(this.lblNatpis);
+            this.Controls.Add(this.groupBoxDobitni);
+            this.Controls.Add(this.groupBoxUplaceni);
+            this.Name = "FrmLoto";
             this.Text = "Loto 7/39";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.groupBoxUplaceni.ResumeLayout(false);
+            this.groupBoxUplaceni.PerformLayout();
+            this.groupBoxDobitni.ResumeLayout(false);
+            this.groupBoxDobitni.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -276,26 +277,26 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtUplaceniBroj1;
+        private System.Windows.Forms.GroupBox groupBoxUplaceni;
+        private System.Windows.Forms.TextBox txtUplaceniBroj2;
+        private System.Windows.Forms.TextBox txtUplaceniBroj7;
+        private System.Windows.Forms.TextBox txtUplaceniBroj6;
+        private System.Windows.Forms.TextBox txtUplaceniBroj4;
+        private System.Windows.Forms.TextBox txtUplaceniBroj5;
+        private System.Windows.Forms.TextBox txtUplaceniBroj3;
+        private System.Windows.Forms.Button btnUplati;
+        private System.Windows.Forms.GroupBox groupBoxDobitni;
+        private System.Windows.Forms.Button btnOdigraj;
+        private System.Windows.Forms.TextBox txtDobitniBroj2;
+        private System.Windows.Forms.TextBox txtDobitniBroj7;
+        private System.Windows.Forms.TextBox txtDobitniBroj6;
+        private System.Windows.Forms.TextBox txtDobitniBroj4;
+        private System.Windows.Forms.TextBox txtDobitniBroj5;
+        private System.Windows.Forms.TextBox txtDobitniBroj3;
+        private System.Windows.Forms.TextBox txtDobitniBroj1;
+        private System.Windows.Forms.Label lblNatpis;
+        private System.Windows.Forms.Label lblBrojPogodaka;
     }
 }
 
